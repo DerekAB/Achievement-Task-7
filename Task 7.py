@@ -22,6 +22,15 @@ studentNumber = int(input('Please enter your student number: '))
 student.append(studentNumber)
 #asking for student number and adding to list
 
+programList = ['PROG1234', 'INFO4321', 'TECH9876', 'PROG7685'] #defining available courses
+
+print('') #blank space
+
+for n in programList: #printing available courses
+    print(n)
+
+print('') #blank space
+
 course = input('Please enter the programs you wish to register '
                'for (put a comma between each code): ').upper().strip()
 #asking for the course codes from user and adding to a new list
